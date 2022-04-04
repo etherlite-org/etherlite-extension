@@ -1,0 +1,8 @@
+{
+  "applications": {
+    "gecko": {
+      "id": "firefoxextension@etherlite.org",
+      "strict_min_version": "56.0"
+    }
+  }
+}

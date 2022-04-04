@@ -1,0 +1,54 @@
+.unlock-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 357px;
+  padding: 30px;
+  font-weight: 400;
+  color: $silver-chalice;
+  font-family: 'DM Sans', sans-serif;
+
+  &__container {
+    background: $white;
+    background: #f7fff3;
+    display: flex;
+    align-self: stretch;
+    justify-content: center;
+    flex: 1 0 auto;
+  }
+
+  &__mascot-container {
+    margin-top: 24px;
+  }
+
+  &__title {
+    margin-top: 40px;
+    font-size: 2rem;
+    font-weight: 400;
+    color: #021b14;
+    margin-bottom: 5px;
+  }
+
+  &__form {
+    width: 100%;
+    margin: 50px 0 10px;
+  }
+
+  &__links {
+    margin-top: 25px;
+    width: 100%;
+  }
+
+  &__link {
+    cursor: pointer;
+
+    &--import {
+      color: #ffb44a !important;
+    }
+
+    &--use-classic {
+      margin-top: 10px;
+    }
+  }
+}

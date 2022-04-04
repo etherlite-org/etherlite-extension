@@ -1,0 +1,98 @@
+.select-action {
+  .app-header__logo-container {
+    width: 100%;
+    margin-top: 5%;
+    font-family: dm sans,sans-serif; 
+  }
+
+  &__body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__body-header {
+    font-style: normal;
+    line-height: 40px;
+    text-align: center;
+    margin-top: 65px;
+    font-size: 30px;
+    color: #021b14;
+    font-weight: 500;
+  }
+
+  &__select-buttons {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+  }
+
+  &__select-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 390px;
+    height: 280px;
+    border: 2px solid #d8e5d2;
+    box-sizing: border-box;
+    border-radius: 0px;
+    margin-left: 22px;
+
+    .first-time-flow__button {
+      max-width: 220px;
+      height: 45px;
+      background: #ffdda9;
+      border-color: #ffdda9;
+      color: #021b14;
+    }
+
+  }
+
+  &__button-symbol {
+    color: #c4c4c4;
+    margin-top: 41px;
+  }
+
+  &__button-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 145px;
+    padding: 0 30px;
+  }
+
+  &__button-text-big {
+    font-style: normal;
+    font-weight: normal;
+    line-height: 28px;
+    font-size: 20px;
+    color: #021b14;
+    margin-top: 12px;
+    text-align: center;
+    font-weight: 500;
+  }
+
+  &__button-text-small {
+    font-style: normal;
+    font-weight: normal;
+    line-height: 20px;
+    font-size: 15px;
+    color: #7a8d88;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  button {
+    font-weight: 500;
+    width: 221px;
+  }
+}
+
+.select-action__select-button .first-time-flow__button:hover {
+  background: #facb85;
+  border-color: #facb85;
+}
+
+
